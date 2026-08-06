@@ -1,1 +1,141 @@
 # Health_Ins_Prediction
+# 🏥 Health Insurance Cost Prediction
+
+A Machine Learning web application built using **Streamlit** that predicts the estimated health insurance cost based on patient information such as age, gender, BMI, number of children, smoking status, and residential region.
+
+---
+
+## 📌 Project Overview
+
+Health insurance companies estimate premium costs based on various personal and medical factors. This project uses a **Gradient Boosting Regression** model to predict the estimated insurance charges from user-provided information.
+
+The application provides a simple and interactive interface where users can enter their details and instantly receive the predicted insurance cost.
+
+---
+
+## 🚀 Features
+
+- Interactive Streamlit web application
+- User-friendly interface
+- Real-time insurance cost prediction
+- Trained Gradient Boosting Regression model
+- Fast and accurate predictions
+- Easy deployment on Streamlit Community Cloud
+
+---
+
+## 📂 Project Structure
+
+```
+Health_Insurance_Prediction/
+│
+├── app.py
+├── model_joblib_gr1
+├── requirements.txt
+├── README.md
+└── .gitignore
+```
+
+---
+
+## 🛠 Technologies Used
+
+- Python
+- Streamlit
+- Pandas
+- NumPy
+- Scikit-learn
+- Joblib
+
+---
+
+## 📊 Machine Learning Model
+
+**Algorithm Used**
+
+- Gradient Boosting Regressor
+
+The model was trained using the Health Insurance Cost Prediction dataset and saved using Joblib for deployment.
+
+---
+
+## 📥 Input Features
+
+The application accepts the following user inputs:
+
+- Age
+- Gender
+- BMI
+- Number of Children
+- Smoking Status
+- Residential Region
+
+---
+
+## 📤 Output
+
+The application predicts the **Estimated Health Insurance Cost** based on the provided inputs.
+
+---
+
+## ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone <repository-url>
+```
+
+Move into the project folder
+
+```bash
+cd Health_Insurance_Prediction
+```
+
+Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the Streamlit application
+
+```bash
+streamlit run app.py
+```
+
+---
+
+## 🌐 Deployment
+
+This project can be deployed easily using **Streamlit Community Cloud**.
+
+Required files:
+
+- app.py
+- model_joblib_gr1
+- requirements.txt
+
+---
+
+## 📸 Application Preview
+
+Add screenshots of your application here after deployment.
+
+---
+
+## 👨‍💻 Author
+
+**Mohit Tharu**
+
+---
+
+## 📄 License
+
+This project is developed for educational and learning purposes.
+
+
+
+
+
+<!-- explains the project's purpose, features, technologies used, installation steps, and execution process. -->
