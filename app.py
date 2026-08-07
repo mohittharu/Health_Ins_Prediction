@@ -155,5 +155,5 @@ if st.button("Predict Insurance Cost", use_container_width=True):
 
     # Display the predicted insurance cost.
     st.success(
-        f"Estimated Health Insurance Cost: ${prediction[0]:,.2f}"
+        f"Estimated Health Insurance Cost: NPR{prediction[0]:,.2f}"
     )
